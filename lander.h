@@ -36,23 +36,3 @@ private:
 
 #endif
 
-
-
-/*
-
-notes from the video:
-
-At the root surface we want that closest to the moon. 
-we will constantly pop a space pod of the the priority queue and then update the thrust amount which will
-update its distance and velocity. constantly pushing the spcae pod that is closest to the moon surface. 
-and update it's thrust until it landed r crashes. 
-
-Lander class:
-
-we need to implement char get status() const, bool changeflow rate(double), and void simulate
-
-keep in mind the less than operator to compare two objects which will be halpful for
-priority = lander type template
-
-she didnt say much but that this part is apart of the document pretty much.
-*/
